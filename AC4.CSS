@@ -1,0 +1,75 @@
+
+h1 {
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 30px
+}
+h3 {
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 30px
+}
+form input {
+    background-color: aqua;
+    font-weight: bold /*Quando é negrito*/;
+    width: 80% /*define a largura do campo*/;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+form input:focus{
+    background-color: white
+}
+form label{
+    font-style: italic;
+}
+
+#selecione {
+    width: 10px;
+    text-align: left
+    margi
+}
+
+#documentos {
+    width: 100px;
+    font-weight: bold;
+    text-align: center;
+    background-color: aqua
+}
+
+form select{
+    font-style: italic;
+    text-align: center;
+    background-color: aqua
+}
+
+form select:focus{
+    background-color: white
+}
+
+form textarea{
+    background-color: aqua;
+    font-weight: bold /*Quando é negrito*/;
+    width: 80% /*define a largura do campo*/;
+    text-align: center 
+}
+
+form textarea:focus{
+    background-color: white
+}
+
+body{
+    background-color: #5b596e;
+    color: white
+}
+label:hover{
+    font-style: normal;
+    font-weight: bolder
+}
+
+.Estados{
+    margin-top: 5px;
+    margin-bottom: 5px
+    
+}

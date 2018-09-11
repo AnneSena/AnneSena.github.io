@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="AC4.CSS" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>Anne C. Sena S. Cruz </li>
+            <li>RA: 1701851</li>
+            <li>ADS - 2 ° C</li>
+        </ul>
+    </div>
+    <h1>Ficha de matrícula</h1>
+    <br>
+    <form>
+    <h3>Digite seus dados abaixo</h3>
+
+        <label for="nome">Nome Completo:</label><br>
+        <input type="text" id="nome" minlength="4" maxlength="20"><br>
+        
+        <label for="EndElet">Email:</label><br>
+        <input type="email" id="EndElet" minlength="4" maxlength="20"><BR>
+
+        <label for="end">Endereço:</label><br>
+        <input type="text" id="end" minlength="4" maxlength="30"><br>
+
+        <label for="cid">Cidade:</label><br>
+        <input type="text" id="cid" minlength="4" maxlength="20"><br>
+
+        <div class="Estados">      
+            <label for="UF">UF:</label>
+                <select>
+                    <option>AC</opition>
+                    <option>AL</opition>
+                    <option>AP</opition>
+                    <option>AM</opition>
+                    <option>BA</opition>
+                    <option>CE</opition>
+                    <option>DF</opition>
+                    <option>ES</opition>
+                    <option>GO</opition>
+                    <option>MA</opition>
+                    <option>MT</opition>
+                    <option>MS</opition>
+                    <option>MG</opition>
+                    <option>PA</opition>
+                    <option>PB</opition>
+                    <option>PR</opition>
+                    <option>PE</opition>
+                    <option>PI</opition>
+                    <option>RJ</opition>
+                    <option>RN</opition>
+                    <option>RS</opition>
+                    <option>RO</opition>
+                    <option>RR</opition>
+                    <option>SC</opition>
+                    <option>SP</opition>
+                    <option>SE</opition>
+                    <option>TO</opition>
+                </select> <br/>
+        </div>
+
+
+        <label for="Nrg">RG:</label><br>
+        <input type="text" id="documentos" minlength="4" maxlength="10"><br>
+        
+        <label for="Ncpf">CPF:</label><br>
+        <input type="text" id="documentos" minlength="4" maxlength="11"><BR></br></br>
+
+    <label>Possui Redes Sociais:</label><br/>
+    <input type="checkbox" id = "selecione" name="Facebook">Facebook
+    <input type="checkbox" id = "selecione" name="Twitter">Twitter
+    <input type="checkbox" id = "selecione" name="Whatsapp">Whatsapp
+    <input type="checkbox" id = "selecione" name="Outros">Outros</br>
+
+    <label>Curso:</label><br/>
+    <input type="radio" id="selecione" name="Curso" value="Redes">Redes
+    <input type="radio" id="selecione" name="Curso" value="SI">SI
+    <input TYPE="radio" id="selecione" name="Curso" value="ADS">ADS<br/><br/>
+
+    <label>Escreva o Motivo de realização de realização da matricula:</label><br/>
+    <textarea rows = "3" cols = "50" maxlength = "100">
+    
+    </textarea><br/><br/>
+
+    <input type="button" id="ok" value="OK"/>
+
+    </form>
+
+
+
+    
+</body>
+</html>
